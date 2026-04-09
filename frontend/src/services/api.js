@@ -25,7 +25,7 @@ function safeJsonParse(value, fallback) {
 }
 
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://spms-backend-fqlg.onrender.com/api',
 })
 
 api.interceptors.request.use((config) => {
